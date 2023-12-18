@@ -11,7 +11,7 @@ const Slide4 = () => {
     ];
     const [playerState, setPlayerState] = useState(0);
     return (
-        <div className={"w-full h-full relative bg-black"}>
+        <div className={"w-full h-full relative bg-black overflow-hidden"}>
             <Swiper wrapperTag={"div"}
                     wrapperClass={"h-full w-full"}
                     className={"w-full h-full"}
@@ -26,9 +26,9 @@ const Slide4 = () => {
                 <SwiperSlide/>
                 <SwiperSlide/>
             </Swiper>
-            <div className={"z-[2] w-2/3 pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:flex items-center justify-around"}>
+            <div className={"z-[2] w-full h-full pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex-col md:gap-10 md:flex-row flex items-center justify-center"}>
                 <Phone
-                    className={"w-full h-auto md:w-2/5"}
+                    className={"h-[80vh] md:h-[90vh]"}
                     src={`images/player2_slide_${playerState}.png`}
                 />
                 <AnimatePresence mode={"wait"}>
@@ -36,7 +36,7 @@ const Slide4 = () => {
                                 exit={{y: 100, opacity: 0}}
                                 initial={{y: -100, opacity: 0}}
                                 animate={{y: 0, opacity: 1}}
-                                className={"mt-5 text-center uppercase leading-tight font-bold text-4xl md:w-64"}
+                                className={"mt-5 text-center uppercase leading-tight font-bold text-4xl md:m-0 md:w-64"}
                     >
                         {texts[playerState]}
                     </motion.h1>
