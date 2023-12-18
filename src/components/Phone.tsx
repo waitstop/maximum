@@ -10,7 +10,7 @@ const Phone = (props: Props) => {
     return (
         <div className={props.className}>
             <div className={`relative w-fit h-fit overflow-hidden rounded-3xl`}>
-                <img className={"z-[2] relative"} src="/images/player.png" alt="player"/>
+                <img className={"z-[2] relative"} src="images/player.png" alt="player"/>
                 <AnimatePresence>
                     <motion.img
                         className={"z-[1] absolute top-[2.5%] left-1/2 -translate-x-1/2 h-[95%] w-auto"}

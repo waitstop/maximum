@@ -29,7 +29,7 @@ const Slide4 = () => {
             <div className={"z-[2] w-2/3 pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:flex items-center justify-around"}>
                 <Phone
                     className={"w-full h-auto md:w-2/5"}
-                    src={`/images/player2_slide_${playerState}.png`}
+                    src={`images/player2_slide_${playerState}.png`}
                 />
                 <AnimatePresence mode={"wait"}>
                     <motion.h1 key={playerState + "_slide3_text"}

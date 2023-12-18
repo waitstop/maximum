@@ -44,7 +44,7 @@ const Slide3 = () => {
 
                 <Phone
                     className={"w-full h-auto mx-auto md:mx-0 md:w-2/5"}
-                    src={`/images/player_slide_${playerState}.png`}
+                    src={`images/player_slide_${playerState}.png`}
                 />
             </div>
         </div>
