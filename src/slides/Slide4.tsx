@@ -28,7 +28,7 @@ const Slide4 = () => {
             </Swiper>
             <div className={"z-[2] w-full h-full pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex-col md:gap-10 md:flex-row flex items-center justify-center"}>
                 <Phone
-                    className={"h-[80vh] md:h-[90vh]"}
+                    className={"h-[60vh] md:h-[70vh]"}
                     src={`images/player2_slide_${playerState}.png`}
                 />
                 <AnimatePresence mode={"wait"}>

@@ -43,7 +43,7 @@ const Slide3 = () => {
                 </AnimatePresence>
 
                 <Phone
-                    className={"h-[80vh] md:h-[90vh]"}
+                    className={"h-[60vh] md:h-[70vh]"}
                     src={`images/player_slide_${playerState}.png`}
                 />
             </div>
