@@ -1,0 +1,16 @@
+@import "fonts.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+    body {
+        @apply font-roboto bg-black text-white
+    }
+}
+.swiper-pagination-bullet{
+    @apply bg-white h-5 w-1 rounded-full
+}
+.swiper-pagination-bullet-active{
+    @apply bg-accent
+}
