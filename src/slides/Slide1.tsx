@@ -7,10 +7,10 @@ const Slide1 = () => {
             </div>
             <div className={"grid-cols-2 grid gap-4"}>
                 <img className={"hidden md:block col-span-2 mx-auto w-3/5"} src="images/qr.png" alt="qr"/>
-                <a href={"https://play.google.com"}>
+                <a href={"https://play.google.com/store/apps/details?id=ru.rmg.maximum"}>
                     <img src="images/google_play.svg" alt=""/>
                 </a>
-                <a href={"https://apple.com"}>
+                <a href={"https://apps.apple.com/us/app/%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-maximum-online/id6463782699"}>
                     <img src="images/app_store.svg" alt=""/>
                 </a>
                 <a className={"text-sm uppercase w-full col-span-2 text-center font-roboto-condensed"}>скачай приложение по ссылке</a>
