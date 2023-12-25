@@ -13,12 +13,6 @@ const Slide1 = () => {
                 <a href={"https://apple.com"}>
                     <img src="images/app_store.svg" alt=""/>
                 </a>
-                <a href={"https://rustore.ru/"}>
-                    <img src="images/ru_store.svg" alt=""/>
-                </a>
-                <a href={"https://nashstore.ru/"}>
-                    <img src="images/nash_store.svg" alt=""/>
-                </a>
                 <a className={"text-sm uppercase w-full col-span-2 text-center font-roboto-condensed"}>скачай приложение по ссылке</a>
             </div>
         </div>

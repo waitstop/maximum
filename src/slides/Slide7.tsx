@@ -13,12 +13,6 @@ const Slide7 = () => {
                 <a href={"https://apple.com"}>
                     <img className={"w-full"} src="images/app_store.svg" alt=""/>
                 </a>
-                <a href={"https://rustore.ru/"}>
-                    <img className={"w-full"} src="images/ru_store.svg" alt=""/>
-                </a>
-                <a href={"https://nashstore.ru/"}>
-                    <img className={"w-full"} src="images/nash_store.svg" alt=""/>
-                </a>
             </div>
             <p className={"text-white/50 text-center text-xs mt-5"}>
                 Copyright <span className={"text-white"}>Radio Maximum LLC</span>. All rights reserved. | <a className={"text-white"} href="#">Политика безопасности</a> | <a className={"text-white"} href="#">Пользовательское соглашение</a>
