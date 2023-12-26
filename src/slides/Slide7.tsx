@@ -15,7 +15,7 @@ const Slide7 = () => {
                 </a>
             </div>
             <p className={"text-white/50 text-center text-xs mt-5"}>
-                Copyright <span className={"text-white"}>Radio Maximum LLC</span>. All rights reserved. | <a className={"text-white"} href="https://maximum.ru/static/%D0%9F%D0%9E%D0%9B%D0%98%D0%A2%D0%98%D0%9A%D0%90_%D0%91%D0%95%D0%97%D0%9E%D0%9F%D0%90%D0%A1%D0%9D%D0%9E%D0%A1%D0%A2%D0%98.pdf">Политика безопасности</a> | <a className={"text-white"} href="https://maximum.ru/page/license-agreement">Пользовательское соглашение</a>
+                ©РАДИО "MAXIMUM" 2023. Все права защищены. | <a className={"text-white"} href="https://maximum.ru/static/%D0%9F%D0%9E%D0%9B%D0%98%D0%A2%D0%98%D0%9A%D0%90_%D0%91%D0%95%D0%97%D0%9E%D0%9F%D0%90%D0%A1%D0%9D%D0%9E%D0%A1%D0%A2%D0%98.pdf">Политика безопасности</a> | <a className={"text-white"} href="https://maximum.ru/page/license-agreement">Пользовательское соглашение</a>
             </p>
         </div>
     );

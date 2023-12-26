@@ -6,7 +6,7 @@ const Slide1 = () => {
                 <h2 className={"hidden md:block text-accent uppercase font-bold text-3xl text-center"}>Если радио - то maximum</h2>
             </div>
             <div className={"grid-cols-2 grid gap-4"}>
-                <img className={"hidden md:block col-span-2 mx-auto w-3/5"} src="images/qr.png" alt="qr"/>
+                <img className={"hidden md:block col-span-2 mx-auto w-52"} src="images/qr.png" alt="qr"/>
                 <a href={"https://play.google.com/store/apps/details?id=ru.rmg.maximum"}>
                     <img src="images/google_play.svg" alt=""/>
                 </a>
