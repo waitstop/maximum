@@ -10,6 +10,9 @@ export default {
         "roboto": ["Roboto", "sans-serif"],
         "roboto-condensed": ["Roboto Condensed", "sans-serif"],
       },
+      height: {
+        "dvh": ["100vh", "100dvh"]
+      },
       colors: {
           accent: "rgba(255, 221, 0, 1)"
       }

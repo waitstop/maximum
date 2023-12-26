@@ -17,6 +17,8 @@ const Slide2 = () => {
                     <img className={phoneStyle} src="images/phone05.png" alt="phone5"/>
                 </div>
             </div>
+            {/* black gradient bottom overlay */}
+            <div className={"pointer-events-none w-full h-full absolute top-0 left-0 bg-[linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)_80%,rgba(0,0,0,1)_95%)]"}/>
         </div>
     );
 };

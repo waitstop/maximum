@@ -7,10 +7,10 @@ import {AnimatePresence, motion} from "framer-motion";
 
 const Slide3 = () => {
     const texts = [
-        ["маxiмально", "удобный плеер"],
-        ["маxiмальные", "легенды"],
+        ["маxiмально", "много музыки"],
         ["маxiмально", "интересные подкасты"],
-        ["маxiмально", "много музыки"]
+        ["маxiмальные", "легенды"],
+        ["маxiмально", "удобный плеер"]
     ];
     const [playerState, setPlayerState] = useState(0);
     return (

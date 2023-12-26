@@ -12,7 +12,7 @@ import Slide7 from "@/slides/Slide7.tsx";
 
 
 const App = () => (
-    <main className={"w-screen h-screen"}>
+    <main className={"w-screen h-dvh"}>
         <Swiper className={"w-full h-full"}
                 direction={"vertical"}
                 slidesPerView={1}

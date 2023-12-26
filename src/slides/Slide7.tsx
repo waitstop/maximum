@@ -1,6 +1,6 @@
 const Slide7 = () => {
     return (
-        <div className={"w-full h-full flex flex-col items-center justify-center bg-cover bg-top bg-no-repeat bg-[linear-gradient(to_top,rgba(0,0,0,1),rgba(255,255,255,0),rgba(0,0,0,1)),url('/images/bg02.png')]"}>
+        <div className={"px-2 w-full h-full flex flex-col items-center justify-center bg-cover bg-top bg-no-repeat bg-[linear-gradient(to_top,rgba(0,0,0,1),rgba(255,255,255,0),rgba(0,0,0,1)),url('/images/bg02.png')]"}>
             <h1 className={"text-center px-12 md:px-0 uppercase font-bold text-4xl pb-5"}>
                 Слушай, Загружай, <span className={"text-accent"}>Делись</span>
             </h1>
