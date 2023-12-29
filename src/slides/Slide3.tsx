@@ -5,6 +5,7 @@ import {Mousewheel} from "swiper/modules";
 import "swiper/css";
 import {AnimatePresence, motion} from "framer-motion";
 
+
 const Slide3 = () => {
     const texts = [
         ["маxiмально", "много музыки"],
@@ -29,7 +30,8 @@ const Slide3 = () => {
                 <SwiperSlide/>
                 <SwiperSlide/>
             </Swiper>
-            <div className={"z-[2] w-full h-full pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex-col md:gap-10 md:flex-row flex items-center justify-center"}>
+            <div
+                className={"z-[2] w-full h-full pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex-col md:gap-10 md:flex-row flex items-center justify-center"}>
                 <AnimatePresence mode={"wait"}>
                     <motion.div key={playerState + "_slide3_text w-full"}
                                 exit={{y: -100, opacity: 0}}

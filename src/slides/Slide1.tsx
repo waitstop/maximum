@@ -3,7 +3,7 @@ const Slide1 = () => {
         <div className={"px-4 justify-around gap-y-32 items-center w-full h-full flex flex-col md:gap-32 md:flex-row bg-cover bg-top bg-no-repeat bg-[linear-gradient(to_top,rgba(0,0,0,1),rgba(255,255,255,0),rgba(0,0,0,1)),url('/images/bg01.png')]"}>
             <div className={"contents md:flex flex-col justify-center items-center"}>
                 <img src="images/logo.svg" alt="Logo" className={"w-1/2 md:w-2/3"}/>
-                <h2 className={"hidden md:block text-accent uppercase font-bold text-3xl text-center"}>Если радио - то maximum</h2>
+                <h2 className={"hidden md:block text-accent uppercase font-bold text-3xl text-center"}>Если радио — то maximum</h2>
             </div>
             <div className={"grid-cols-2 grid gap-4"}>
                 <img className={"hidden md:block col-span-2 mx-auto w-52"} src="images/qr.png" alt="qr"/>
