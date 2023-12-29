@@ -4,6 +4,10 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import {Mousewheel} from "swiper/modules";
 import "swiper/css";
 import {AnimatePresence, motion} from "framer-motion";
+import img1 from "@/assets/images/player_slide_0.png";
+import img2 from "@/assets/images/player_slide_1.png";
+import img3 from "@/assets/images/player_slide_2.png";
+import img4 from "@/assets/images/player_slide_3.png";
 
 
 const Slide3 = () => {
@@ -13,6 +17,7 @@ const Slide3 = () => {
         ["маxiмальные", "легенды"],
         ["маxiмально", "удобный плеер"]
     ];
+    const imgs = [img1, img2, img3, img4];
     const [playerState, setPlayerState] = useState(0);
     return (
         <div className={"w-full h-full relative bg-black overflow-hidden"}>
@@ -46,7 +51,8 @@ const Slide3 = () => {
 
                 <Phone
                     className={"h-[60vh] md:h-[70vh]"}
-                    src={`images/player_slide_${playerState}.png`}
+                    src={imgs}
+                    index={playerState}
                 />
             </div>
         </div>

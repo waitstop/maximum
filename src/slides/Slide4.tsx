@@ -4,11 +4,17 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import {Mousewheel} from "swiper/modules";
 import "swiper/css";
 import {AnimatePresence, motion} from "framer-motion";
+import img1 from "@/assets/images/player2_slide_0.png";
+import img2 from "@/assets/images/player2_slide_1.png";
+import img3 from "@/assets/images/player2_slide_2.png";
+import img4 from "@/assets/images/player2_slide_3.png";
+
 
 const Slide4 = () => {
     const texts = [
         "новости", "ведущие", "избранное", "истории"
     ];
+    const imgs = [img1, img2, img3, img4];
     const [playerState, setPlayerState] = useState(0);
     return (
         <div className={"w-full h-full relative bg-black overflow-hidden"}>
@@ -29,7 +35,8 @@ const Slide4 = () => {
             <div className={"z-[2] w-full h-full pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex-col md:gap-10 md:flex-row flex items-center justify-center"}>
                 <Phone
                     className={"h-[60vh] md:h-[70vh]"}
-                    src={`images/player2_slide_${playerState}.png`}
+                    src={imgs}
+                    index={playerState}
                 />
                 <AnimatePresence mode={"wait"}>
                     <motion.h1 key={playerState + "_slide3_text"}
